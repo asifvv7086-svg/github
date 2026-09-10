@@ -1,0 +1,9 @@
+name: First Workflow
+on:
+   push:
+jobs:
+  job1name:
+     runs-on: ubuntu-latest
+     steps:
+       - name: print working directory
+         run: pwd
